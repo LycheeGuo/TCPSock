@@ -5,10 +5,10 @@ keep_vars = true
 
 [vars]
 UUID = "a51e8a7b-78b2-465a-81b9-332b26d8e9f3"
-MAX_PROXY_TRIES = "6"
+MAX_PROXY_TRIES = 1
 PROXY_TIMEOUT_MS = "6000"
 DIRECT_FALLBACK = "0"
-DEBUG = "1"
+DEBUG = 1
 
 [secrets]
 required = ["UPSTREAMS"]
